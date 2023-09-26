@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "First Post"
-author: Carson Collins
+author: carson collins
 description: Short yet informative description
-image: "/path/to/image" or "url_to_image"
---- 
+image: /assets/images/blog-image.jpg
+---
 Hello World!
