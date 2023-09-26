@@ -22,7 +22,7 @@ title: Carson's Blog
 email: collinscd23@email.com 
 description: "A blog to track my learning on data sceince and other stats fields" 
 baseurl: "/collinscd23.github.io" # the name of the repository 
-url: "https://collinscd23.github.io" #  change this to "https://<your-github-username>.github.io"
+url: "https://<collinscd23>.github.io" #  change this to "https://<your-github-username>.github.io"
 image: #https://images.pexels.com/photos/722995/pexels-photo-722995.jpeg
 author: Carson Collins
 copyright:  # Your initials or what you want the copyright to be.  Leave empty for no copyright
