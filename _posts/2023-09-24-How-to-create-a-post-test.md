@@ -13,4 +13,4 @@ My favorite department at BYU is the [Statistics Department](https://statistics.
 
 My [About]({{site.url}}/{{site.baseurl}}/about) me page.
 
-![Fig Name](images/lakeview.jpeg)
+![Fig Name](/assets/images/lakeview.jpeg)
