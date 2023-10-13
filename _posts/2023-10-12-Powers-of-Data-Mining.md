@@ -3,7 +3,7 @@ layout: post
 title:  "Powers of Data Mining"
 author: Carson Collins
 description: Short yet informative description
-image: /assets/images/blog-image.jpg
+image: /assets/images/pexels-photo-534216.jpg
 ---
 
 # Unveiling the Power of Data Mining: Your Essential Guide
