@@ -2,7 +2,7 @@
 layout: post
 title:  "Powers of Data Mining"
 author: Carson Collins
-description: Short yet informative description
+description: Intro to Data Mining and its uses
 image: /assets/images/pexels-photo-534216.jpeg
 ---
 
