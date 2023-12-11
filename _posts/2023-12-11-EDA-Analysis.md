@@ -31,7 +31,7 @@ This heatmap offers insights into how various stats like points, assists, and re
 
 A histogram of minutes played in the playoffs is used to understand player utilization:
 
-![Histogram of Minutes Played](/assets/images/Mins played graph.png)
+![Histogram of Minutes Played](assets/images/Mins played graph.png)
 
 The histogram reveals how different players are utilized in terms of playing time during crucial playoff games, highlighting the reliance on key players.
 
