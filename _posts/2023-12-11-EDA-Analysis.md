@@ -41,4 +41,3 @@ This analysis, enriched with advanced visualizations, provides a deeper understa
 
 ---
 
-**Note**: Replace the `/path/to/...` with the actual paths or URLs where the images from the Jupyter notebook are hosted.
