@@ -38,7 +38,7 @@ The histogram reveals how different players are utilized in terms of playing tim
 
 ### 3. **Mean of Playoff VS Reg. Season for mins played for the middle portion of Players**
 We can see that as the season comes to playoff season the rotation of players tightens. The more productive players will get more time and the less productive will see less MINS
-![Histogram of Playoff vs Reg](/assets/images/Playoffs-vs-reg.png)
+![Histogram of Playoff vs Reg](/assets/images/Playoffsvsreg.png)
 ## Conclusion
 
 
