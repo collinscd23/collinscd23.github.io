@@ -35,9 +35,13 @@ A histogram of minutes played in the playoffs is used to understand player utili
 
 The histogram reveals how different players are utilized in terms of playing time during crucial playoff games, highlighting the reliance on key players.
 
+
+### 3. **Mean of Playoff VS Reg. Season for mins played for the middle portion of Players**
+We can see that as the season comes to playoff season the rotation of players tightens. The more productive players will get more time and the less productive will see less MINS
+![Histogram of Playoff vs Reg](/assets/images/Playoffs-vs-reg.png)
 ## Conclusion
 
-This analysis, enriched with advanced visualizations, provides a deeper understanding of NBA player performances. It underlines the importance of statistical correlations and player utilization patterns in strategizing for games.
+
 
 ---
 
