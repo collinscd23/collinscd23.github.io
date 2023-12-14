@@ -18,20 +18,16 @@ image: /assets/images/blog-image.jpg
 ## Ethical Considerations
 - Ethical procautions I took to was doing my research online to find if the NBA allowed webscraping. I found that the NBA allows webscaping for there pages that show past data and are not confortable with current data being scraped and used for sports betting and other facets of money gain. But my use is for personal education. 
 
-## Data Collection
-- Description of the sources of data (e.g., websites, databases).
-- Techniques used for web scraping or data gathering.
-- Tools and technologies employed in the data collection process.
-
-## Data Cleaning
-- Steps taken to clean and preprocess the data.
-- Challenges faced during data cleaning and how they were overcome.
-- Description of the final dataset after cleaning.
+## Data Collection & Cleaning
+The Data collection was fairly simple and easy to clean given that the NBA website and API provide great data.
+I chose to keep all the stats provided on the tables and then adding a few ratios further down the line. One ratio was the possestions stat. This took into account for FGA, OREB, TOV, and FTA to create essentially a Possestion. Then I also made adjustments to make a number of given stats into percenatges.
+-The first step was changing the year to an interger which would make future analysis easier.
+-Then i went ahead and did some team adjustments.  Standardizing team names by replacing 'NOP' and 'NOH' with 'NO' in the 'TEAM' column. This is referraing the the New Orlean team name change.
+I also did some simplifying to the Regular season column changing it to RS.
 
 ## Conclusion
-- Recap of the key points discussed in the post.
-- Reflection on the learnings from the research process.
-- Final thoughts and potential future directions for research.
+Now with the data ready we can jump into action and see what intresting surprises lay hidden in the data. I will continue this blog with a seprate post covering the details and performing an EDA, Hopefully awnsering the questions i have above.
 
-## References (if any)
-- List of sources, references, or further reading materials.
+
+## References 
+- https://github.com/collinscd23/NBA-Stats-Project
