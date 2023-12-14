@@ -5,41 +5,47 @@ author: Carson Collins
 description: A look at the top 100 NBA players stats from Regular and post season over the last 10 years
 image: /assets/images/blog-image.jpg
 ---
-# In-Depth Analysis of NBA Player Data Using Advanced Visualizations
+# In-Depth NBA Player Statistics Analysis
 
-In this blog, we dive into an intricate analysis of NBA player statistics, leveraging advanced visualizations to extract meaningful insights. The analysis is grounded in the `NBA Data Analysis.ipynb` notebook, where we have used Plotly for our visualizations.
+In this analysis, I delve into the intricacies of NBA player performance through a series of visualizations. Each graph tells a unique story about the players and games across several seasons. Here's what I've discovered:
 
-## Data Preparation
+## Multiple Lines Trend Chart Analysis
 
-The dataset includes comprehensive player statistics, and we have performed a series of data manipulation steps to prepare it for analysis. Here's an overview of our approach:
+![Multiple Lines Trend Chart](assets/images/100df.png)
+*Figure 1: Multiple Lines Trend Chart*
 
-- Data is grouped by players and years.
-- Statistical columns are normalized by minutes played.
-- Additional metrics such as FG%, 3PT%, FT%, and True Shooting Percentage (TRU%) are calculated.
+In Figure 1, I'm looking at a trend chart that tracks various basketball statistics over the years. The stability of the possession estimates (`POSS_est`) at the top suggests that team possessions have been consistent, which is crucial for evaluating performance. The lines for Field Goals Made (`FGM`) and Field Goal Attempts (`FGA`) indicate a steady shooting performance. Minor variations could reflect changes in strategies or roles within the team.
 
-## Visualization and Insights
+## Points Scored Trend Chart Analysis
 
-### 1. **Correlation Heatmap**
+![Points Scored Trend Chart](assets/images/40df.png)
+*Figure 2: Points Scored Trend Chart*
 
-We have created a correlation heatmap to understand the relationships between different statistics:
+In Figure 2, I notice that the Points Scored (`PTS`) metric stands alone, which likely means it's influenced by several factors like `FGM` and `FGA`. The consistency across the chart demonstrates that players' roles and contributions have been steady over the seasons, despite the dynamic nature of basketball.
 
-![Correlation Heatmap](/assets/images/heatmap.png)
+## Free Throw Percentage vs Play Time Scatter Plot Analysis
 
-This heatmap offers insights into how various stats like points, assists, and rebounds are interrelated. For instance, a high correlation between assists and points suggests playmakers also contribute significantly to scoring.
+![Free Throw Percentage vs Play Time Scatter Plot](path-to-your-image-free-throw.png)
+*Figure 3: Free Throw Percentage vs Play Time Scatter Plot*
 
-### 2. **Histogram of Minutes Played**
+In the scatter plot of Figure 3, there is a dense cluster of data points between 75% to 90% free-throw efficiency, showing that most players shoot within this range, regardless of their minutes played. This suggests that free throw skill may not necessarily improve with more playtime.
 
-A histogram of minutes played in the playoffs is used to understand player utilization:
+## Correlation Heatmap Analysis
 
-![Histogram of Minutes Played](/assets/images/Minsplayedgraph.png)
+![Correlation Heatmap](assets/images/heatmap.png)
+*Figure 4: Correlation Heatmap*
 
-The histogram reveals how different players are utilized in terms of playing time during crucial playoff games, highlighting the reliance on key players.
+The heatmap in Figure 4 reveals how different stats interact. For example, the correlation between Points Scored (`PTS`) and Field Goals Made (`FGM`) is intuitive – more points usually come from making more baskets. This visualization helps me understand the relationships between various aspects of the game.
 
+## Histogram of Minutes Played in Playoffs Analysis
 
-### 3. **Mean of Playoff VS Reg. Season for mins played for the middle portion of Players**
-We can see that as the season comes to playoff season the rotation of players tightens. The more productive players will get more time and the less productive will see less MINS
-![Histogram of Playoff vs Reg](/assets/images/Playoffsvsreg.png)
-## Conclusion
+![Histogram of Minutes Played in Playoffs](path-to-your-image-mins-played-graph.png)
+*Figure 5: Histogram of Minutes Played by Players in Playoffs*
+
+Lastly, the histogram in Figure 5 shows the distribution of minutes played during the playoffs. The steep decline after the initial peak suggests a reliance on key players who log the most minutes. This insight is pivotal when considering player fatigue and performance in crucial games.
+
+Through each figure, I gain valuable insights into player performance, team dynamics, and the strategic elements that play into the beautiful game of basketball. Should a deeper dive be required, I can refer to the raw data and statistical analysis within the code and CSV files for more context.
+
 
 
 
