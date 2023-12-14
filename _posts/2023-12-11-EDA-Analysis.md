@@ -18,7 +18,7 @@ In Figure 1, I'm looking at a trend chart that tracks various basketball statist
 
 ## Points Scored Trend Chart Analysis
 
-![Points Scored Trend Chart](assets/images/40df.png)
+![Points Scored Trend Chart](/assets/images/40df.png)
 *Figure 2: Points Scored Trend Chart*
 
 In Figure 2, I notice that the Points Scored (`PTS`) metric stands alone, which likely means it's influenced by several factors like `FGM` and `FGA`. The consistency across the chart demonstrates that players' roles and contributions have been steady over the seasons, despite the dynamic nature of basketball.
@@ -32,7 +32,7 @@ In the scatter plot of Figure 3, there is a dense cluster of data points between
 
 ## Correlation Heatmap Analysis
 
-![Correlation Heatmap](assets/images/heatmap.png)
+![Correlation Heatmap](/assets/images/heatmap.png)
 *Figure 4: Correlation Heatmap*
 
 The heatmap in Figure 4 reveals how different stats interact. For example, the correlation between Points Scored (`PTS`) and Field Goals Made (`FGM`) is intuitive – more points usually come from making more baskets. This visualization helps me understand the relationships between various aspects of the game.
