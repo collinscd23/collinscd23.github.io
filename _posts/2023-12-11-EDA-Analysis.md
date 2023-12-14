@@ -9,12 +9,13 @@ image: /assets/images/blog-image.jpg
 
 In this analysis, I delve into the intricacies of NBA player performance through a series of visualizations. Each graph tells a unique story about the players and games across several seasons. Here's what I've discovered:
 
-## Multiple Lines Trend Chart Analysis
-
-![Multiple Lines Trend Chart](assets/images/100df.png)
-*Figure 1: Multiple Lines Trend Chart*
-
-In Figure 1, I'm looking at a trend chart that tracks various basketball statistics over the years. The stability of the possession estimates (`POSS_est`) at the top suggests that team possessions have been consistent, which is crucial for evaluating performance. The lines for Field Goals Made (`FGM`) and Field Goal Attempts (`FGA`) indicate a steady shooting performance. Minor variations could reflect changes in strategies or roles within the team.
+# How has the game changed over the past years?
+## FG3A (Three pointer Attempts Per 48 mins from 2012 to 2021)
+![FG3A per 48 mins](/assets/images/FG3A_48.png)
+*Figure 1: FG3A per Min Trend Chart*
+This graph shows us the average number of 3 point attempts made each year by the top 100 players per 48 mins. One of the first things I noticed from the data was the increased number of 3 point attempts taken. With almost 15 more 3 pointers taken per 48 mins. This shows a very big change in the game of basketball. With the rise of stars like Stephen Curry, Damian Lillard and others playing a very deep shooting play style as increased dramaticlly since 2012. As we will see in the next graph that the 3 pointer isnt the only thing that has changed.
+## Number of Possesions (Number of Possessions per 48 mins from 2012 to 2021)
+![Number of POSS per 48 mins](/assets/images/POSS_48.png)
 
 ## Points Scored Trend Chart Analysis
 
