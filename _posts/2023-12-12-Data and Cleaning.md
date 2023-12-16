@@ -32,10 +32,10 @@ Initial steps included converting the 'Year' field to an integer format for easi
 
 
 ## References
-[Streamlit NBA App](https://nba-app-26cfxmvx5jaadc6rumhqcm.streamlit.app/)
+### [Streamlit NBA App](https://nba-app-26cfxmvx5jaadc6rumhqcm.streamlit.app/)
 
 
-[GitHub Repository for NBA Stats Project](https://github.com/collinscd23/NBA-Stats-Project)
+### [GitHub Repository for NBA Stats Project](https://github.com/collinscd23/NBA-Stats-Project)
 
 
 
