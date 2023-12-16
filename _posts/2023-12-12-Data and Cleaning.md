@@ -30,5 +30,8 @@ I also simplified the Regular Season column, changing it to 'RS'.
 Now with the data ready, we can jump into action and see what interesting surprises lay hidden in the data. I will continue this blog with a separate post covering the details and performing an EDA, hopefully answering the questions I have above.
 
 
-## References 
+## References
+[NBA StreamLit App](https://nba-app-26cfxmvx5jaadc6rumhqcm.streamlit.app/)
 [GitHub Repository for NBA Stats Project](https://github.com/collinscd23/NBA-Stats-Project)https://github.com/collinscd23/NBA-Stats-Project
+
+
