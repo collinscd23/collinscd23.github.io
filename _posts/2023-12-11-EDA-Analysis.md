@@ -31,7 +31,10 @@ As a final look lets see how the # point attempt as changed per 100 possesion.
 ![Correlation Heatmap](/assets/images/heatmap.png)
 *Figure 4: Correlation Heatmap*
 
-The heatmap reveals how different stats interact. For example, the correlation between Points Scored (`PTS`) and Field Goals Made (`FGM`) is intuitive – more points usually come from making more baskets. This visualization helps me understand the relationships between various aspects of the game. Some Intresting findings I came across while looking over this chart is that is that AST (assists) and STL (steal) have a fairly warm correlation, which is intresting because We can assume that when a player steals the ball they are a connection to Passing it to someone else who scores. I was curious then to see if maybe the correlation was similar to PTS scored meaning that they would steal the ball and then score themselves. It turns out the correlation between STLs and PTS arent very close. Maybe then players who tend to steal the ball also tend to pass it to a teammate who scores. Showing a possible type of playstyle. 
+The heatmap reveals how different stats interact. For example, the correlation between Points Scored (`PTS`) and Field Goals Made (`FGM`) is intuitive – more points usually come from making more baskets. This visualization helps me understand the relationships between various aspects of the game. 
+
+<img src="{{https://collinscd23.github.io}}/assets/images/STL.png"/>
+Some Intresting findings I came across while looking over this chart is that is that AST (assists) and STL (steal) have a fairly warm correlation, which is intresting because We can assume that when a player steals the ball they are a connection to Passing it to someone else who scores. I was curious then to see if maybe the correlation was similar to PTS scored meaning that they would steal the ball and then score themselves. It turns out the correlation between STLs and PTS arent very close. Maybe then players who tend to steal the ball also tend to pass it to a teammate who scores. Showing a possible type of playstyle. 
 
 # What does the distribution of “Minutes Played” thoughtout the TOP 100 players of each year from 2012 to 2012 look like? AND what can we learn.
 ## Mins played Chart Analysis
