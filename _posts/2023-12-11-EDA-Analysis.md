@@ -25,6 +25,19 @@ Here we can see that the Number of Possessions as also had a postive trend over 
 
 As a final look lets see how the # point attempt as changed per 100 possesion. 
 
+# What player stats are correlated with each other from the Data set collected? 
+## Correlation Heatmap Analysis
+
+![Correlation Heatmap](/assets/images/heatmap.png)
+*Figure 4: Correlation Heatmap*
+
+The heatmap reveals how different stats interact. For example, the correlation between Points Scored (`PTS`) and Field Goals Made (`FGM`) is intuitive – more points usually come from making more baskets. This visualization helps me understand the relationships between various aspects of the game. Some Intresting findings I came across while looking over this chart is that is that AST (assists) and STL (steal) have a fairly warm correlation, which is intresting because We can assume that when a player steals the ball they are a connection to Passing it to someone else who scores. I was curious then to see if maybe the correlation was similar to PTS scored meaning that they would steal the ball and then score themselves. It turns out the correlation between STLs and PTS arent very close. Maybe then players who tend to steal the ball also tend to pass it to a teammate who scores. Showing a possible type of playstyle. 
+
+# What does the distribution of “Minutes Played” thoughtout the TOP 100 players of each year from 2012 to 2012 look like? AND what can we learn.
+## Mins played Chart Analysis
+![Mins PLayed thoughtout the TOP 100 players of each year from 2012 to 2012](/assets/images/Minsplayedgraph.png)
+
+
 ## Points Scored Trend Chart Analysis
 
 ![Points Scored Trend Chart](/assets/images/40df.png)
@@ -39,12 +52,7 @@ In Figure 2, I notice that the Points Scored (`PTS`) metric stands alone, which 
 
 In the scatter plot of Figure 3, there is a dense cluster of data points between 75% to 90% free-throw efficiency, showing that most players shoot within this range, regardless of their minutes played. This suggests that free throw skill may not necessarily improve with more playtime.
 
-## Correlation Heatmap Analysis
 
-![Correlation Heatmap](/assets/images/heatmap.png)
-*Figure 4: Correlation Heatmap*
-
-The heatmap in Figure 4 reveals how different stats interact. For example, the correlation between Points Scored (`PTS`) and Field Goals Made (`FGM`) is intuitive – more points usually come from making more baskets. This visualization helps me understand the relationships between various aspects of the game.
 
 ## Histogram of Minutes Played in Playoffs Analysis
 
