@@ -3,7 +3,7 @@ layout: post
 title:  "NBA EDA Analysis"
 author: Carson Collins
 description: A look at the top 100 NBA players stats from Regular and post season over the last 10 years
-image: /assets/images/pexels-allen-boguslavsky-12316533.png
+image: /assets/images/arena.jpg
 ---
 # In-Depth NBA Player Statistics Analysis
 
