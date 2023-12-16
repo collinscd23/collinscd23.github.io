@@ -31,7 +31,8 @@ Now with the data ready, we can jump into action and see what interesting surpri
 
 
 ## References
-[NBA StreamLit App](https://nba-app-26cfxmvx5jaadc6rumhqcm.streamlit.app/)
+[Streamlit NBA App](https://nba-app-26cfxmvx5jaadc6rumhqcm.streamlit.app/)
 [GitHub Repository for NBA Stats Project](https://github.com/collinscd23/NBA-Stats-Project)
+
 
 
