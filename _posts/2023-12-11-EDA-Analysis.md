@@ -54,6 +54,10 @@ The immense talent in the NBA is not only impressive but also serves as a testam
 
 Furthermore, the insights gleaned from the correlation heatmap and the distribution of minutes played underscore the intricate balance between individual performance and team strategy. As we move forward, it's fascinating to consider how these trends will continue to shape the future of basketball. Will the emphasis on three-pointers and pace continue to rise, or will we see a resurgence of traditional playstyles? As analytics become more deeply integrated into sports strategy, the NBA is poised for further exciting developments, promising a continually evolving spectacle for fans and players alike.
 
+## References
+### [Streamlit NBA App](https://nba-app-26cfxmvx5jaadc6rumhqcm.streamlit.app/)
 
+
+### [GitHub Repository for NBA Stats Project](https://github.com/collinscd23/NBA-Stats-Project)
 ---
 
