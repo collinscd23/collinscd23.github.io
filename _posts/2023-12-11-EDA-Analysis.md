@@ -7,23 +7,24 @@ image: /assets/images/pexels-allen-boguslavsky-12316533.png
 ---
 # In-Depth NBA Player Statistics Analysis
 
-In this analysis, I delve into the intricacies of NBA player performance through a series of visualizations. Each graph tells a unique story about the players and games across several seasons. Here's what I've discovered:
+In this analysis, we explore the nuances of NBA player performance through various visualizations, each telling a unique story about the players and games over several seasons. Here are the key insights:
 
 # How has the game changed over the past years?
 ## FG3A (Three pointer Attempts Per 48 mins from 2012 to 2021)
 ![FG3A per 48 mins](/assets/images/FG3A_48.png)
 *Figure 1: FG3A per Min Trend Chart*
-This graph shows us the average number of 3 point attempts made each year by the top 100 players per 48 mins. One of the first things I noticed from the data was the increased number of 3 point attempts taken. With almost 15 more 3 pointers taken per 48 mins. This shows a very big change in the game of basketball. With the rise of stars like Stephen Curry, Damian Lillard and others playing a very deep shooting play style as increased dramaticlly since 2012. As we will see in the next graph that the 3 pointer isnt the only thing that has changed.
+This graph illustrates the average number of three-point attempts made each year by the top 100 players per 48 mins. A significant increase in three-point attempts is evident, rising by nearly 15 per 48 mins. This shift reflects a notable change in basketball's dynamics, especially with the emergence of sharpshooters like Stephen Curry and Damian Lillard, who popularized a deep-shooting play style since 2012. The following graph further demonstrates that the three-pointer isn't the only aspect that has evolved.
 
 
 ## Number of Possesions (Number of Possessions per 48 mins from 2012 to 2021)
 ![Number of POSS per 48 mins](/assets/images/POSS_48.png)
-Here we can see that the Number of Possessions as also had a postive trend over the past few years. This can lead us to a few intresting insights. First is the pace of the game. Naturally the more times you get the ball means that you are either shooting, Rebounding, turning it over or stealing more. So the pace is faster. I found this to be very intresting. The best way i can connect this with the last visual is that the top players tend to spend more of the possesions shooting threes then they did in the past aswell as a number of other factors. 
+We observe a positive trend in the number of possessions over recent years. This increase suggests a faster game pace, implying more shooting, rebounding, turnovers, or steals. It's particularly interesting to note that top players now utilize a larger portion of possessions for three-point shooting, among other strategies.
+
 
 ## FG3A (Three pointer Attempts Per 100 Possesions from 2012 to 2021)
 ![Number of FG3A per 100 POSS](/assets/images/FG3A_100.png)
 
-As a final look lets see how the # point attempt as changed per 100 possesion. 
+To conclude this section, let's examine how three-point attempts have evolved per 100 possessions. This graph offers a deeper understanding of the evolving offensive strategies in the NBA, particularly focusing on three-pointer attempts per 100 possessions. The data indicates a consistent upward trend, reflecting a strategic shift towards prioritizing three-point shots. This change is not just a result of individual players' skills but also a broader adaptation in team tactics, embracing the three-pointer as a crucial element of modern basketball. This evolution signifies how analytics and player proficiency have jointly propelled the game into a new era, where long-range shooting is no longer an exception but a norm.
 
 # What player stats are correlated with each other from the Data set collected? 
 ## Correlation Heatmap Analysis
@@ -31,10 +32,10 @@ As a final look lets see how the # point attempt as changed per 100 possesion.
 ![Correlation Heatmap](/assets/images/heatmap.png)
 *Figure 4: Correlation Heatmap*
 
-The heatmap reveals how different stats interact. For example, the correlation between Points Scored (`PTS`) and Field Goals Made (`FGM`) is intuitive – more points usually come from making more baskets. This visualization helps me understand the relationships between various aspects of the game. 
+The heatmap showcases interactions between different stats. For instance, the correlation between Points Scored ('PTS') and Field Goals Made ('FGM') is strong, as more points typically result from making more baskets. This visualization aids in understanding the relationships among various game aspects. 
 
 ![Zoom on Heatmap](/assets/images/newplot.png)
-Some Intresting findings I came across while looking over this chart is that is that AST (assists) and STL (steal) have a fairly warm correlation, which is intresting because We can assume that when a player steals the ball they are a connection to Passing it to someone else who scores. I was curious then to see if maybe the correlation was similar to PTS scored meaning that they would steal the ball and then score themselves. It turns out the correlation between STLs and PTS arent very close. Maybe then players who tend to steal the ball also tend to pass it to a teammate who scores. Showing a possible type of playstyle. 
+An intriguing observation is the moderate correlation between Assists ('AST') and Steals ('STL'). This might indicate that players who steal the ball often pass it to a teammate for a score. However, the correlation between Steals ('STL') and Points Scored ('PTS') is not as significant, suggesting that players who steal the ball are less likely to score themselves, highlighting a distinct playstyle.
 
 # What does the distribution of “Minutes Played per game in RS VS Playoffs” thoughtout the TOP 100 players from 2012 to 2021 look like? AND what can we learn.
 ## Mins played Chart Analysis
@@ -49,7 +50,9 @@ Lastly, the histogram  shows the distribution of minutes played during the playo
 This can create a intresting dynamic around lots of the teams in the NBA. 
 
 # Conclusion
-Even though the talent required to be in the NBA is imense its still very mindblowing to know that the gap in skill is still massive between a select few players in the NBA and it shows through a number of the graphs ive found. 
+The immense talent in the NBA is not only impressive but also serves as a testament to the dynamic nature of the sport. Through these visualizations, we see how the game has evolved, driven by both individual brilliance and strategic innovations. The increasing emphasis on three-point shooting and the shifting dynamics of possession and playtime during playoffs highlight the league's adaptability and players' readiness to embrace new challenges.
+
+Furthermore, the insights gleaned from the correlation heatmap and the distribution of minutes played underscore the intricate balance between individual performance and team strategy. As we move forward, it's fascinating to consider how these trends will continue to shape the future of basketball. Will the emphasis on three-pointers and pace continue to rise, or will we see a resurgence of traditional playstyles? As analytics become more deeply integrated into sports strategy, the NBA is poised for further exciting developments, promising a continually evolving spectacle for fans and players alike.
 
 
 ---
