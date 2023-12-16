@@ -38,21 +38,18 @@ Some Intresting findings I came across while looking over this chart is that is 
 
 # What does the distribution of “Minutes Played per game in RS VS Playoffs” thoughtout the TOP 100 players from 2012 to 2021 look like? AND what can we learn.
 ## Mins played Chart Analysis
-![Mins PLayed RS vs Playoff from 2012 to 2012](/assets/images/Playoffs-vs-reg.png)
-
-
-
+![Mins PLayed RS vs Playoff from 2012 to 2012](/assets/images/Playoffsvsreg.png)
+With some further investigation we can see that during the regular season the amount of time is pretty normally distributed betweeen the 48 mins in an game. With the higher profile players playing more minutes and the bench players playing less. But as we look at the Playoffs we see the center kind of implode. Where both endeds are inflated. The better players are getting more time playing and the others are getting less. This makes sense because in the playoffs the teams are more focused on winning and not worried about keeping there stars in as healthy because they want to win. AS for the regular season its okay to give the other players more time since the games dont matter as much. 
 
 ## Histogram of Minutes Played in Playoffs Analysis
-
 ![Histogram of Minutes Played in Playoffs](/assets/images/Minsplayedgraph.png)
 *Figure 5: Histogram of Minutes Played by Players in Playoffs*
+Here is a further look into the time played in the playoffs. 
+Lastly, the histogram  shows the distribution of minutes played during the playoffs. The steep decline after the initial peak suggests a reliance on key players who log the most minutes. This insight is pivotal when considering player fatigue and performance in crucial games. Typically the starting 5 players roated with around 2 or 3 from the bench will play a majority of the playoff games. 
+This can create a intresting dynamic around lots of the teams in the NBA. 
 
-Lastly, the histogram in Figure 5 shows the distribution of minutes played during the playoffs. The steep decline after the initial peak suggests a reliance on key players who log the most minutes. This insight is pivotal when considering player fatigue and performance in crucial games.
-
-Through each figure, I gain valuable insights into player performance, team dynamics, and the strategic elements that play into the beautiful game of basketball. Should a deeper dive be required, I can refer to the raw data and statistical analysis within the code and CSV files for more context.
-
-
+# Conclusion
+Even though the talent required to be in the NBA is imense its still very mindblowing to know that the gap in skill is still massive between a select few players in the NBA and it shows through a number of the graphs ive found. 
 
 
 ---
