@@ -36,30 +36,16 @@ The heatmap reveals how different stats interact. For example, the correlation b
 ![Zoom on Heatmap](/assets/images/newplot.png)
 Some Intresting findings I came across while looking over this chart is that is that AST (assists) and STL (steal) have a fairly warm correlation, which is intresting because We can assume that when a player steals the ball they are a connection to Passing it to someone else who scores. I was curious then to see if maybe the correlation was similar to PTS scored meaning that they would steal the ball and then score themselves. It turns out the correlation between STLs and PTS arent very close. Maybe then players who tend to steal the ball also tend to pass it to a teammate who scores. Showing a possible type of playstyle. 
 
-# What does the distribution of “Minutes Played” thoughtout the TOP 100 players of each year from 2012 to 2012 look like? AND what can we learn.
+# What does the distribution of “Minutes Played per game in RS VS Playoffs” thoughtout the TOP 100 players from 2012 to 2021 look like? AND what can we learn.
 ## Mins played Chart Analysis
-![Mins PLayed thoughtout the TOP 100 players of each year from 2012 to 2012](/assets/images/Minsplayedgraph.png)
+![Mins PLayed RS vs Playoff from 2012 to 2012](/assets/images/Playoffs-vs-reg.png)
 
-
-## Points Scored Trend Chart Analysis
-
-![Points Scored Trend Chart](/assets/images/40df.png)
-*Figure 2: Points Scored Trend Chart*
-
-In Figure 2, I notice that the Points Scored (`PTS`) metric stands alone, which likely means it's influenced by several factors like `FGM` and `FGA`. The consistency across the chart demonstrates that players' roles and contributions have been steady over the seasons, despite the dynamic nature of basketball.
-
-## Free Throw Percentage vs Play Time Scatter Plot Analysis
-
-![Free Throw Percentage vs Play Time Scatter Plot](path-to-your-image-free-throw.png)
-*Figure 3: Free Throw Percentage vs Play Time Scatter Plot*
-
-In the scatter plot of Figure 3, there is a dense cluster of data points between 75% to 90% free-throw efficiency, showing that most players shoot within this range, regardless of their minutes played. This suggests that free throw skill may not necessarily improve with more playtime.
 
 
 
 ## Histogram of Minutes Played in Playoffs Analysis
 
-![Histogram of Minutes Played in Playoffs](path-to-your-image-mins-played-graph.png)
+![Histogram of Minutes Played in Playoffs](/assets/images/Minsplayedgraph.png)
 *Figure 5: Histogram of Minutes Played by Players in Playoffs*
 
 Lastly, the histogram in Figure 5 shows the distribution of minutes played during the playoffs. The steep decline after the initial peak suggests a reliance on key players who log the most minutes. This insight is pivotal when considering player fatigue and performance in crucial games.
