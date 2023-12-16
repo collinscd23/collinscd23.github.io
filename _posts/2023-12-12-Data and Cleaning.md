@@ -7,16 +7,15 @@ image: /assets/images/bball.png
 ---
 # NBA DATA over past 10 years
 ## Introduction
-I wanted to compare the top 100 players from each year's regular and offseason stats in the NBA. In this blog, I'll cover the procedure I used to find and clean the data from the NBA official website.
-I find this topic interesting and cool because I'm a big fan of the NBA and basketball in general. I thought it would be cool to see what interesting correlations and findings I could uncover while practicing my newly learned skills in data scraping. I think it will also help me to better appreciate the impressive talent and effort it takes to be an NBA player, as well as the thought that goes into being a data analyst.
-Here are a few questions I wanted answered from my research:
-What player stats are correlated with each other from the large list of stats collected? Are there any surprising findings?
-What does the distribution of "Minutes Played" look like throughout the top 100 players? What does this tell us?
-What does the mean of playoff vs regular season "Mins Played" for the middle proportion of players tell us about how teams rotate their talent? Do bench players get more or less time in the playoffs?
-How has the game changed over the past 10 years? (Comparison of "per 48 min" stats and "per possession" stats)
+As a passionate NBA fan and budding data analyst, I embarked on a project to compare the top 100 NBA players' regular and postseason stats over the last decade. This blog outlines the methods I employed for data extraction and cleaning from the NBA's official website. My goal was to uncover fascinating correlations and insights while honing my data scraping skills. I believe this exercise will deepen my appreciation for the exceptional talents in the NBA and the intricate process of data analysis. Key questions guiding my research include:
+
+Which player stats correlate significantly, and are there any unexpected findings?
+How is the distribution of "Minutes Played" among the top 100 players, and what insights does it offer?
+What do comparisons of playoff versus regular season "Minutes Played" for mid-level players reveal about team rotations and bench player utilization?
+How has the game evolved in the past few years, as seen through "per 48 min" and "per possession" statistics?
 
 ## Ethical Considerations
-One ethical precaution I took was to research online to find if the NBA allows web scraping. I found that the NBA allows web scraping for their pages that show past data and are not comfortable with current data being scraped and used for sports betting and other facets of monetary gain. But my use is for personal education.
+Before proceeding, I ensured my data scraping aligned with ethical standards. The NBA permits web scraping of historical data, provided it's not used for sports betting or financial gain. My project, focused solely on personal education, aligns with these guidelines.
 
 ## Data Collection & Cleaning
 The data collection was fairly simple and easy to clean given that the NBA website and API provide great data.
@@ -27,7 +26,9 @@ Then I went ahead and made some team adjustments. Standardizing team names by re
 I also simplified the Regular Season column, changing it to 'RS'.
 
 ## Conclusion
-Now with the data ready, we can jump into action and see what interesting surprises lay hidden in the data. I will continue this blog with a separate post covering the details and performing an EDA, hopefully answering the questions I have above.
+Extracting data from the NBA's website and API was straightforward, thanks to their well-organized datasets. I retained all stats from the tables, adding ratios like a 'Possession' stat—factoring in FGA, OREB, TOV, and FTA—and converting numerous stats into percentages for more nuanced analysis.
+
+Initial steps included converting the 'Year' field to an integer format for easier analysis and standardizing team names (e.g., merging 'NOP' and 'NOH' into 'NO' for New Orleans). Additionally, I simplified the Regular Season column label to 'RS'.
 
 
 ## References
