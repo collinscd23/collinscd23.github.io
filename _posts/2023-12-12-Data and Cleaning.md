@@ -19,7 +19,7 @@ Before proceeding, I ensured my data scraping aligned with ethical standards. Th
 
 ## Data Collection & Cleaning
 The data collection was fairly simple and easy to clean given that the NBA website and API provide great data. It was a bit challenging finding the the excat URL for the page, but after looking thorugh the web HTML and i was able to get waht i needed.   
-I chose to keep stats provided in the tables, but later ended up cleaning a few off. And then added a few ratios further down the line. One ratio was the possession stat. This took into account Field Goal Attempt (FGA), Offensive Rebound (OREB), Turnover (TOV), and Freethrow Attempt (FTA) to create essentially a Possession. Then I also made adjustments to turn a number of given stats into percentages. I used a time loop aswell to not over use the site and keep the extraction spaced over a timly manner.
+I chose to keep stats provided in the tables, but later ended up cleaning a few off. And then added a few ratios further down the line. One ratio was the possession stat. This took into account Field Goal Attempt ('FGA'), Offensive Rebound ('OREB'), Turnover ('TOV'), and Freethrow Attempt ('FTA') to create essentially a Possession. Then I also made adjustments to turn a number of given stats into percentages. I used a time loop aswell to not over use the site and keep the extraction spaced over a timly manner.
 
 The first step was changing the year to an integer which would make future analysis easier.
 Then I went ahead and made some team adjustments. Standardizing team names by replacing 'NOP' and 'NOH' with 'NO' in the 'TEAM' column. This refers to the New Orleans team name change.
