@@ -12,7 +12,7 @@ In this analysis, we explore the nuances of NBA player performance through vario
 # How has the game changed over the past years?
 ## FG3A (Three pointer Attempts Per 48 mins from 2012 to 2021)
 ![FG3A per 48 mins](/assets/images/FG3A_48.png)
-*Figure 1: FG3A per Min Trend Chart*
+
 This graph illustrates the average number of three-point attempts made each year by the top 100 players per 48 mins. A significant increase in three-point attempts is evident, rising by nearly 15 per 48 mins. This shift reflects a notable change in basketball's dynamics, especially with the emergence of sharpshooters like Stephen Curry and Damian Lillard, who popularized a deep-shooting play style since 2012. The following graph further demonstrates that the three-pointer isn't the only aspect that has evolved.
 
 
@@ -30,7 +30,7 @@ To conclude this section, let's examine how three-point attempts have evolved pe
 ## Correlation Heatmap Analysis
 
 ![Correlation Heatmap](/assets/images/heatmap.png)
-*Figure 4: Correlation Heatmap*
+
 
 The heatmap showcases interactions between different stats. For instance, the correlation between Points Scored ('PTS') and Field Goals Made ('FGM') is strong, as more points typically result from making more baskets. This visualization aids in understanding the relationships among various game aspects. 
 
@@ -44,7 +44,7 @@ With some further investigation we can see that during the regular season the am
 
 ## Histogram of Minutes Played in Playoffs Analysis
 ![Histogram of Minutes Played in Playoffs](/assets/images/Minsplayedgraph.png)
-*Figure 5: Histogram of Minutes Played by Players in Playoffs*
+
 Here is a further look into the time played in the playoffs. 
 Lastly, the histogram  shows the distribution of minutes played during the playoffs. The steep decline after the initial peak suggests a reliance on key players who log the most minutes. This insight is pivotal when considering player fatigue and performance in crucial games. Typically the starting 5 players roated with around 2 or 3 from the bench will play a majority of the playoff games. 
 This can create a intresting dynamic around lots of the teams in the NBA. 
