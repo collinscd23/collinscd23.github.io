@@ -7,7 +7,7 @@ image: /assets/images/bball.png
 ---
 # NBA DATA over past 10 years
 ## Introduction
-As a passionate NBA fan and budding data analyst, I embarked on a project to compare the top 100 NBA players' regular and postseason stats over the last decade. This blog outlines the methods I employed for data extraction and cleaning from the NBA's official website. My goal was to uncover fascinating correlations and insights while honing my data scraping skills. I believe this exercise will deepen my appreciation for the exceptional talents in the NBA and the intricate process of data analysis. Key questions guiding my research include:
+As a passionate NBA fan and budding data analyst, I embarked on a project to compare the top 100 NBA players' regular and postseason stats over the last decade. This blog outlines the methods I employed for data extraction and cleaning from the NBA's official website. My goal was to uncover fascinating correlations and insights while honing my data scraping skills. This exercise has deepened my appreciation for the exceptional talents in the NBA and the intricate process of data analysis. Key questions guiding my research include:
 
 Which player stats correlate significantly, and are there any unexpected findings?
 How is the distribution of "Minutes Played" among the top 100 players, and what insights does it offer?
@@ -19,7 +19,7 @@ Before proceeding, I ensured my data scraping aligned with ethical standards. Th
 
 ## Data Collection & Cleaning
 The data collection was fairly simple and easy to clean given that the NBA website and API provide great data. It was a bit challenging finding the the excat URL for the page, but after looking thorugh the web HTML and i was able to get waht i needed.   
-I chose to keep stats provided in the tables, but later ended up cleaning a few off. And then added a few ratios further down the line. One ratio was the possession stat. This took into account FGA, OREB, TOV, and FTA to create essentially a Possession. Then I also made adjustments to turn a number of given stats into percentages. I used a time loop aswell to not over use the site and keep the extraction spaced over a timly manner.
+I chose to keep stats provided in the tables, but later ended up cleaning a few off. And then added a few ratios further down the line. One ratio was the possession stat. This took into account Field Goal Attempt (FGA), Offensive Rebound (OREB), Turnover (TOV), and Freethrow Attempt (FTA) to create essentially a Possession. Then I also made adjustments to turn a number of given stats into percentages. I used a time loop aswell to not over use the site and keep the extraction spaced over a timly manner.
 
 The first step was changing the year to an integer which would make future analysis easier.
 Then I went ahead and made some team adjustments. Standardizing team names by replacing 'NOP' and 'NOH' with 'NO' in the 'TEAM' column. This refers to the New Orleans team name change.
