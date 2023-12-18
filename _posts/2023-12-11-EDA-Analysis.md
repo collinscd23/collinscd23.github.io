@@ -37,10 +37,10 @@ The heatmap showcases interactions between different stats. For instance, the co
 ![Zoom on Heatmap](/assets/images/newplot.png)
 An intriguing observation is the moderate correlation between Assists ('AST') and Steals ('STL'). This might indicate that players who steal the ball often pass it to a teammate for a score. However, the correlation between Steals ('STL') and Points Scored ('PTS') is not as significant, suggesting that players who steal the ball are less likely to score themselves, highlighting a distinct playstyle.
 
-# What does the distribution of “Minutes Played per game in RS VS Playoffs” thoughtout the TOP 100 players from 2012 to 2021 look like? AND what can we learn.
-## Mins played Chart Analysis
-![Mins PLayed RS vs Playoff from 2012 to 2012](/assets/images/Playoffsvsreg.png)
-With some further investigation we can see that during the regular season the amount of time is pretty normally distributed betweeen the 48 mins in an game. With the higher profile players playing more minutes and the bench players playing less. We can see the center of the data crash, and both endeds are increased. The better players are getting more time playing and the others are getting less. This makes sense because in the playoffs the teams are more focused on winning and not worried about keeping there stars in as healthy because they want to win. AS for the regular season its okay to give the other players more time since the games dont matter as much. 
+# What does the distribution of “Minutes Played per game in RS VS Playoffs” thoughtout the TOP 100 players from 2012 to 2021 look like? And what can we learn?
+## Minutes played Chart Analysis
+![Minutes PLayed RS vs Playoff from 2012 to 2012](/assets/images/Playoffsvsreg.png)
+With some further investigation we can see that during the regular season the amount of time is pretty normally distributed betweeen the 48 mins in an game. With the higher profile players playing more minutes and the bench players playing less. We can see the center of the data crash, and both endeds are increased. The better players are getting more time playing and the others are getting less. This makes sense because in the playoffs the teams are more focused on winning and not worried about keeping there stars in as healthy because they want to win. As for the regular season its okay to give the other players more time since the games dont matter as much. 
 
 ## Histogram of Minutes Played in Playoffs Analysis
 ![Histogram of Minutes Played in Playoffs](/assets/images/Minsplayedgraph.png)
