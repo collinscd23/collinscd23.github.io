@@ -18,12 +18,12 @@ How has the game evolved in the past few years, as seen through "per 48 min" and
 Before proceeding, I ensured my data scraping aligned with ethical standards. The NBA permits web scraping of historical data, provided it's not used for sports betting or financial gain. My project, focused solely on personal education, aligns with these guidelines.
 
 ## Data Collection & Cleaning
-The data collection was fairly simple and easy to clean given that the NBA website and API provide great data.
-I chose to keep all the stats provided in the tables and then added a few ratios further down the line. One ratio was the possession stat. This took into account FGA, OREB, TOV, and FTA to create essentially a Possession. Then I also made adjustments to turn a number of given stats into percentages.
+The data collection was fairly simple and easy to clean given that the NBA website and API provide great data. It was a bit challenging finding the the excat URL for the page, but after looking thorugh the web HTML and i was able to get waht i needed.   
+I chose to keep stats provided in the tables, but later ended up cleaning a few off. And then added a few ratios further down the line. One ratio was the possession stat. This took into account FGA, OREB, TOV, and FTA to create essentially a Possession. Then I also made adjustments to turn a number of given stats into percentages. I used a time loop aswell to not over use the site and keep the extraction spaced over a timly manner.
 
 The first step was changing the year to an integer which would make future analysis easier.
 Then I went ahead and made some team adjustments. Standardizing team names by replacing 'NOP' and 'NOH' with 'NO' in the 'TEAM' column. This refers to the New Orleans team name change.
-I also simplified the Regular Season column, changing it to 'RS'.
+I also simplified the Regular Season column, changing it to 'RS'. 
 
 ## Conclusion
 Extracting data from the NBA's website and API was straightforward, thanks to their well-organized datasets. I retained all stats from the tables, adding ratios like a 'Possession' stat—factoring in FGA, OREB, TOV, and FTA—and converting numerous stats into percentages for more nuanced analysis.
