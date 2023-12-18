@@ -31,6 +31,11 @@ Extracting data from the NBA's website and API was straightforward, thanks to th
 Initial steps included converting the 'Year' field to an integer format for easier analysis and standardizing team names (e.g., merging 'NOP' and 'NOH' into 'NO' for New Orleans). Additionally, I simplified the Regular Season column label to 'RS'.
 
 
+
+## EDA!
+If you found this post intresting and want to know how the data turned out and what I learned check out my next post!
+[Analysis and Insights!](https://collinscd23.github.io/2023/12/11/EDA-Analysis.html) 
+
 ## References
 ### [Streamlit NBA App](https://nba-app-26cfxmvx5jaadc6rumhqcm.streamlit.app/)
 
